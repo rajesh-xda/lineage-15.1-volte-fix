@@ -1,0 +1,3 @@
+To fix long baseband copy and paste in Lineage 15.1 ROM source folder
+$ cd frameworks/base
+git fetch https://github.com/shekhawat2/platform_frameworks_base.git 8.x && git cherry-pick 07840dc1bb1d79877bc8f07c6960666b4f967609
